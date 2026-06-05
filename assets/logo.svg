@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <defs>
+    <linearGradient id="gh" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#D4A94B"/>
+      <stop offset="100%" stop-color="#b8912f"/>
+    </linearGradient>
+  </defs>
+  <!-- Background circle -->
+  <circle cx="100" cy="100" r="90" fill="#1a1a2e"/>
+  <circle cx="100" cy="100" r="82" fill="none" stroke="url(#gh)" stroke-width="2"/>
+  <!-- Hotel building -->
+  <rect x="65" y="50" width="70" height="100" rx="3" fill="none" stroke="url(#gh)" stroke-width="2.5"/>
+  <!-- Entrance canopy -->
+  <path d="M80,150 L80,135 L120,135 L120,150" fill="none" stroke="url(#gh)" stroke-width="2"/>
+  <line x1="75" y1="135" x2="125" y2="135" stroke="url(#gh)" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- Windows -->
+  <rect x="75" y="58" width="10" height="10" fill="url(#gh)" rx="1" opacity="0.8"/>
+  <rect x="95" y="58" width="10" height="10" fill="url(#gh)" rx="1" opacity="0.8"/>
+  <rect x="115" y="58" width="10" height="10" fill="url(#gh)" rx="1" opacity="0.8"/>
+  <rect x="75" y="76" width="10" height="10" fill="url(#gh)" rx="1" opacity="0.8"/>
+  <rect x="95" y="76" width="10" height="10" fill="url(#gh)" rx="1" opacity="0.8"/>
+  <rect x="115" y="76" width="10" height="10" fill="url(#gh)" rx="1" opacity="0.8"/>
+  <rect x="75" y="94" width="10" height="10" fill="url(#gh)" rx="1" opacity="0.8"/>
+  <rect x="95" y="94" width="10" height="10" fill="url(#gh)" rx="1" opacity="0.8"/>
+  <rect x="115" y="94" width="10" height="10" fill="url(#gh)" rx="1" opacity="0.8"/>
+  <!-- Star on top -->
+  <polygon points="100,30 103,40 113,40 105,46 108,56 100,50 92,56 95,46 87,40 97,40" fill="url(#gh)"/>
+  <!-- Fork and knife (restaurant) -->
+  <line x1="40" y1="80" x2="40" y2="120" stroke="url(#gh)" stroke-width="2" stroke-linecap="round"/>
+  <path d="M36,80 L36,95 Q36,100 40,100" fill="none" stroke="url(#gh)" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M44,80 L44,95 Q44,100 40,100" fill="none" stroke="url(#gh)" stroke-width="1.5" stroke-linecap="round"/>
+  <!-- Knife -->
+  <path d="M155,80 L155,120" stroke="url(#gh)" stroke-width="2" stroke-linecap="round"/>
+  <path d="M155,80 L160,80 L160,100 Q160,105 155,105" fill="none" stroke="url(#gh)" stroke-width="1.5"/>
+</svg>
